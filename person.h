@@ -11,7 +11,7 @@ protected:
 public:
     Person();
     Person(std::string name,std::string address,std::string id);
-    virtual void show_data();
+    void show_data();
     void enter_data();
     void set_name(std::string name);
     void set_address(std::string address);
